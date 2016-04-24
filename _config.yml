@@ -68,4 +68,6 @@ theme: doctype
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:djyde/DOCTYPER-page.git
+  branch: gh-pages
